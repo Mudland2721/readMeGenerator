@@ -29,6 +29,6 @@ None
 Run npm test
 
 <b><h3>For questions contact me here</h3></b>
-Mudland2721@gamil.com
+Mudland2721@gmail.com
 
 ![](https://avatars.githubusercontent.com/u/62409021?)
