@@ -68,14 +68,17 @@ inquirer
             let license = responses.license;
             let contributing = responses.contributing;
             let tests = responses.tests;
-            // write file argument
-            let answers = "<h2>" + title + "</h2>" + "\n" + "\n" +
+            // write file argument 
+            
+            // "<b>" + 
+            // "</b>" +
+            let answers = "<b>" + "<h2>" + title + "</h2>" + "</b>" + "\n" + "\n" + "<b>" +
 
-                "<h3>Snapshot</h3>" + "\n" + description + "\n" + "\n" +
+                "<h3>Description</h3>" + "</b>" + "\n" + description + "\n" + "\n" + "<b>" +
 
-                "<h3>How to Install</h3>" + "\n" + installation + "\n" + "\n" +
+                "<h3>How to Install</h3>" + "</b>" + "\n" + installation + "\n" + "\n" + "<b>" +
 
-                "<h3>Table of Contents</h3>" + "\n" + "\n" +
+                "<h3>Table of Contents</h3>" + "</b>" + "\n" + "\n" +
 
                 "<ul>" + 
                 
@@ -85,23 +88,25 @@ inquirer
                 
                 "<li>" + tableOfContents2 + "</li>" + "\n" + "\n" + 
 
-                "</ul>" + "\n" + "\n" +
+                "</ul>" + "\n" + "\n" + "<b>" +
 
-                "<h3>How to run tests</h3>" + "\n" +
+                "<h3>Usage</h3>" + "</b>" + "\n" +
                 
-                usage + "\n" + "\n" +
+                usage + "\n" + "\n" + "<b>" +
 
-                "<h3>Licensing</h3>" + "\n" + 
+                "<h3>Licensing</h3>" + "</b>" + "\n" + 
                 
-                license + "\n" + "\n" +
+                license + "\n" + "\n" + "<b>" +
 
-                "<h3>Contributors</h3>" + "\n" + 
+                "<h3>Contributors</h3>" + "</b>" + "\n" + 
                 
-                contributing + "\n" + "\n" +
+                contributing + "\n" + "\n" + "<b>" +
 
-                "<h3>How To Run Test</h3>" + "\n" + 
+                "<h3>How To Run Test</h3>" + "</b>" + "\n" + 
                 
-                tests + "\n" + "\n" +
+                tests + "\n" + "\n" + "<b>" +
+
+                "<h3>For questions contact me here</h3>" +"</b>" + "\n" + 
 
                 userEmail + "\n" + "\n" +
 
