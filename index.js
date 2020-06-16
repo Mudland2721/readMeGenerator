@@ -69,9 +69,6 @@ inquirer
             let contributing = responses.contributing;
             let tests = responses.tests;
             // write file argument 
-            
-            // "<b>" + 
-            // "</b>" +
             let answers = "<b>" + "<h2>" + title + "</h2>" + "</b>" + "\n" + "\n" + "<b>" +
 
                 "<h3>Description</h3>" + "</b>" + "\n" + description + "\n" + "\n" + "<b>" +
@@ -111,7 +108,7 @@ inquirer
                 userEmail + "\n" + "\n" +
 
                 "![](" + user + ")";
-                //write response to readme
+                //write response as readme
             fs.writeFile("readMe.md", answers, () => {});
         });
     });
